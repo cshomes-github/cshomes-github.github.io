@@ -1,0 +1,383 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Cornerstone Homes - Home
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+
+        // Simple line icons
+        link(href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css', rel='stylesheet', type='text/css')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body
+
+        // Navigation
+        nav.navbar.navbar-light.bg-light.static-top
+            .container
+                a.navbar-brand(href='#!') Cornerstone Homes
+                //a.btn.btn-primary(href='#!') Sign In
+
+        // Masthead
+        header.masthead.text-white.text-center
+            .overlay
+            .container
+                .row
+                    .col-xl-9.mx-auto
+                        h1.mb-5 Cornerstone Homes <br> Quality you can touch
+                        h2
+                          a.text-white(href="tel:210-889-1889") 210-889-1889
+                        h2
+                          a.text-white(href="mailto:kellcyinsa@yahoo.com") kellcyinsa@yahoo.com
+                    //.col-md-10.col-lg-8.col-xl-7.mx-auto
+                    //    form
+                    //        .form-row
+                    //            .col-12.col-md-9.mb-2.mb-md-0
+                    //                input.form-control.form-control-lg(type='email', placeholder='Enter your email...')
+                    //            .col-12.col-md-3
+                    //                button.btn.btn-block.btn-lg.btn-primary(type='submit') Sign up!
+
+        // Icons Grid
+        section.features-icons.bg-light.text-center
+            .container
+                .row
+                    .col-lg-4
+                        .features-icons-item.mx-auto.mb-5.mb-lg-0.mb-lg-3
+                            .features-icons-icon.d-flex
+                                i.icon-heart.m-auto.text-primary
+                            h3 Mission
+                            p.lead.mb-0 Deliver value based on the straight forward approach to the "cost plus" building method that creates a "win-win" outcome for all parties involved. Building Value, quality and equity is our goal.
+                    .col-lg-4
+                        .features-icons-item.mx-auto.mb-5.mb-lg-0.mb-lg-3
+                            .features-icons-icon.d-flex
+                                i.icon-book-open.m-auto.text-primary
+                            h3 Philosophy
+                            p.lead.mb-0 We believe that as a homebuilder we should offer our customers the straightforward purchase process, the "Cost-Plus", easy to understand team effort. Based on these beliefs, Cornerstone Homes offers a formulated custom home building process that removes some confusion from the actual cost to the inflated cost. Regardless of location, size or price, our buyers want to receive quality, value and the "true cost" of building their new home.
+                    .col-lg-4
+                        .features-icons-item.mx-auto.mb-0.mb-lg-3
+                            .features-icons-icon.d-flex
+                                i.icon-check.m-auto.text-primary
+                            h3 Easy to Use
+                            p.lead.mb-0 Ready to use with your own content, or customize the source files!
+        // Image Showcases
+        section.showcase
+            .container-fluid.p-0
+                .row.no-gutters
+                    .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-1.jpg');")
+                    .col-lg-6.order-lg-1.my-auto.showcase-text
+                        h2 Why Choose Cornerstone Homes
+                        p.lead.mb-0
+                            | Our goal is to deliver value to each and every customer through our straight forward approach to building each quality home. This easy understandable approach has proven why Cornerstone Homes is a distinguished builder throughout San Antonio and the Hill Country.  Each home is built with the shared goal, Quality, Communication and Value.
+                .row.no-gutters
+                    .col-lg-6.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-2.jpg');")
+                    .col-lg-6.my-auto.showcase-text
+                        h2 Our Process
+                        p.lead.mb-0
+                            | Often, the most confusing part of building a new home is not the build but the actual cost of the lot, labor and materials. Will your new home be a single story or a two story, two car or three car garage, school district, and just as important, how far is the commute to work. Our process is simplified, financing, select your lot, custom design your floor plan, select your fixtures, determine the actual cost, start the building process, interior finishes, closing.
+                .row.no-gutters
+                    .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-3.jpg');")
+                    .col-lg-6.order-lg-1.my-auto.showcase-text
+                        h2 Build on your Lot Program
+                        p.lead.mb-0
+                            | In the San Antonio and Hill Country areas, we offer the opportunity to build on your own lot. Though we strive to build in the most desirable areas, we understand that your lot may be in a remote country setting. In any case, by partnering with Cornerstone Homes, you will enjoy working with our Engineer/ Architect/Designer, Interior Designer and Builder all in the same family of Vendors and Contractors.  We as a family of professionals have all worked together for more than twenty years, You will truly enjoy meeting every person, being involved in every stage and knowing you own a "one-of-a-kind" custom built home.
+        // Portfolio Grid
+        section.page-section.bg-light(id="portfolio")
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Portfolio
+                    h3.section-subheading.text-muted Here's a showcase of our projects.
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            a.portfolio-link(data-toggle="modal" href="#portfolioModal1")
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                      i.fas.fa-plus.fa-3x
+                                img.img-fluid(src="assets/img/portfolio/01-thumbnail.jpg" alt="")
+                            .portfolio-caption
+                                .portfolio-caption-heading Threads
+                                .portfolio-caption-subheading.text-muted Illustration
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            a.portfolio-link(data-toggle="modal" href="#portfolioModal2")
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                      i.fas.fa-plus.fa-3x
+                                img.img-fluid(src="assets/img/portfolio/02-thumbnail.jpg" alt="")
+                            .portfolio-caption
+                                .portfolio-caption-heading Explore
+                                .portfolio-caption-subheading.text-muted Graphic Design
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            a.portfolio-link(data-toggle="modal" href="#portfolioModal3")
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src="assets/img/portfolio/03-thumbnail.jpg" alt="")
+                            .portfolio-caption
+                                .portfolio-caption-heading Finish
+                                .portfolio-caption-subheading.text-muted Identity
+                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                        .portfolio-item
+                            a.portfolio-link(data-toggle="modal" href="#portfolioModal4")
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src="assets/img/portfolio/04-thumbnail.jpg" alt="")
+                            .portfolio-caption
+                                .portfolio-caption-heading Lines
+                                .portfolio-caption-subheading text-muted Branding
+                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                        .portfolio-item
+                            a.portfolio-link(data-toggle="modal" href="#portfolioModal5")
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src="assets/img/portfolio/05-thumbnail.jpg" alt="")
+                            .portfolio-caption
+                                .portfolio-caption-heading Southwest
+                                .portfolio-caption-subheading.text-muted Website Design
+                    .col-lg-4.col-sm-6
+                        .portfolio-item
+                            a.portfolio-link(data-toggle="modal" href="#portfolioModal6")
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src="assets/img/portfolio/06-thumbnail.jpg" alt="")
+                            .portfolio-caption
+                                .portfolio-caption-heading Window
+                                .portfolio-caption-subheading.text-muted Photography
+
+        // Testimonials
+        section.testimonials.text-center.bg-light
+            .container
+                h2.mb-5 What people are saying...
+                .row
+                    .col-lg-4
+                        .testimonial-item.mx-auto.mb-5.mb-lg-0
+                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-1.jpg', alt='...')
+                            h5 Ellen P.
+                            p.font-weight-light.mb-0 "This is fantastic! Thanks so much guys!"
+                    .col-lg-4
+                        .testimonial-item.mx-auto.mb-5.mb-lg-0
+                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-2.jpg', alt='...')
+                            h5 John L.
+                            p.font-weight-light.mb-0
+                                | "Fantasic work building the strongest deck I've ever stood on"
+                    .col-lg-4
+                        .testimonial-item.mx-auto.mb-5.mb-lg-0
+                            img.img-fluid.rounded-circle.mb-3(src='assets/img/testimonials-3.jpg', alt='...')
+                            h5 Karen W.
+                            p.font-weight-light.mb-0 "Thanks so much for making our home feel like home!"
+
+        // Call to Action
+        section.call-to-action.text-white.text-center
+            .overlay
+            .container
+                .row
+                    .col-xl-9.mx-auto
+                        h2.mb-4 Ready to get started? <br>Contact us for estimates and a free consultation.
+                        h2
+                          a.text-white(href="tel:210-889-1889") 210-889-1889
+                          br
+                          a.text-white(href="mailto:kellcyinsa@yahoo.com") kellcyinsa@yahoo.com
+
+                    //.col-md-10.col-lg-8.col-xl-7.mx-auto
+                    //    form
+                    //        .form-row
+                    //            .col-12.col-md-9.mb-2.mb-md-0
+                    //                input.form-control.form-control-lg(type='email', placeholder='Enter your email...')
+                    //            .col-12.col-md-3
+                    //                button.btn.btn-block.btn-lg.btn-primary(type='submit') Sign up!
+
+        // Footer
+        footer.footer.bg-light
+            .container
+                .row
+                    .col-lg-6.h-100.text-center.text-lg-left.my-auto
+                        ul.list-inline.mb-2
+                            li.list-inline-item
+                                a(href='#!') About
+                            li.list-inline-item ⋅
+                            li.list-inline-item
+                                a(href='#!') Contact
+                            li.list-inline-item ⋅
+                            li.list-inline-item
+                                a(href='#!') Terms of Use
+                            li.list-inline-item ⋅
+                            li.list-inline-item
+                                a(href='#!') Privacy Policy
+                        p.text-muted.small.mb-4.mb-lg-0 © cornerstonehomeintx.com 2021. All Rights Reserved.
+                    .col-lg-6.h-100.text-center.text-lg-right.my-auto
+                        ul.list-inline.mb-0
+                            li.list-inline-item.mr-3
+                                a(href='#!')
+                                    i.fab.fa-facebook.fa-2x.fa-fw
+                            li.list-inline-item.mr-3
+                                a(href='#!')
+                                    i.fab.fa-twitter-square.fa-2x.fa-fw
+                            li.list-inline-item
+                                a(href='#!')
+                                    i.fab.fa-instagram.fa-2x.fa-fw
+
+        // Bootstrap core JS
+        script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
+
+        // Portfolio Modals
+        // Modal 1
+        .portfolio-modal.modal.fade(id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true")
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss="modal")
+                        img(src="assets/img/close-icon.svg" alt="Close modal")
+                    .container
+                        .row.justify-content-center
+                            .col-lg-8
+                                .modal-body
+                                    // Project Details Go Here
+                                    h2.text-uppercase Project Name
+                                    p.item-intro text-muted Lorem ipsum dolor sit amet consectetur.
+                                    img.img-fluid.d-block.mx-auto(src="assets/img/portfolio/01-full.jpg" alt="")
+                                    p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                    ul.list-inline
+                                        li Date: January 2020
+                                        li Client: Threads
+                                        li Category: Illustration
+
+                                    button.btn.btn-primary(data-dismiss="modal" type="button")
+                                        i.fas.fa-times.mr-1
+                                        Close Project
+        // Modal 2
+        .portfolio-modal.modal.fade(id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true")
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss="modal")
+                        img(src="assets/img/close-icon.svg" alt="Close modal")
+                    .container
+                        .row.justify-content-center
+                            .col-lg-8
+                                .modal-body
+                                    // Project Details Go Here
+                                    h2.text-uppercase Project Name
+                                    p.item-intro text-muted Lorem ipsum dolor sit amet consectetur.
+                                    img.img-fluid.d-block.mx-auto(src="assets/img/portfolio/02-full.jpg" alt="")
+                                    p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                    ul.list-inline
+                                        li Date: January 2020
+                                        li Client: Explore
+                                        li Category: Graphic Design
+
+                                    button.btn.btn-primary(data-dismiss="modal" type="button")
+                                        i.fas.fa-times.mr-1
+                                        Close Project
+        // Modal 3
+        .portfolio-modal.modal.fade(id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true")
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss="modal")
+                        img(src="assets/img/close-icon.svg" alt="Close modal")
+                    .container
+                        .row.justify-content-center
+                            .col-lg-8
+                                .modal-body
+                                    // Project Details Go Here
+                                    h2.text-uppercase Project Name
+                                    p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+                                    img.img-fluid.d-block.mx-auto(src="assets/img/portfolio/03-full.jpg" alt="")
+                                    p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                    ul.list-inline
+                                        li Date: January 2020
+                                        li Client: Finish
+                                        li Category: Identity
+
+                                    button.btn.btn-primary(data-dismiss="modal" type="button")
+                                        i.fas.fa-times.mr-1
+                                        Close Project
+        // Modal 4
+        .portfolio-modal.modal.fade(id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true")
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss="modal")
+                        img(src="assets/img/close-icon.svg" alt="Close modal")
+                    .container
+                        .row.justify-content-center
+                            .col-lg-8
+                                .modal-body
+                                    // Project Details Go Here
+                                    h2.text-uppercase Project Name
+                                    p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+                                    img.img-fluid.d-block.mx-auto(src="assets/img/portfolio/04-full.jpg" alt="")
+                                    p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                    ul.list-inline
+                                        li Date: January 2020
+                                        li Client: Lines
+                                        li Category: Branding
+
+                                    button.btn.btn-primary(data-dismiss="modal" type="button")
+                                        i.fas.fa-times.mr-1
+                                        Close Project
+        // Modal 5
+        .portfolio-modal.modal.fade(id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true")
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss="modal")
+                        img(src="assets/img/close-icon.svg" alt="Close modal")
+                    .container
+                        .row.justify-content-center
+                            .col-lg-8
+                                .modal-body
+                                    // Project Details Go Here
+                                    h2.text-uppercase Project Name
+                                    p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+                                    img.img-fluid.d-block.mx-auto(src="assets/img/portfolio/05-full.jpg" alt="")
+                                    p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                    ul.list-inline
+                                        li Date: January 2020
+                                        li Client: Southwest
+                                        li Category: Website Design
+
+                                    button.btn.btn-primary(data-dismiss="modal" type="button")
+                                        i.fas.fa-times.mr-1
+                                        Close Project
+        // Modal 6
+        .portfolio-modal.modal.fade(id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true")
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss="modal")
+                        img(src="assets/img/close-icon.svg" alt="Close modal")
+                    .container
+                        .row.justify-content-center
+                            .col-lg-8
+                                .modal-body
+                                    // Project Details Go Here
+                                    h2.text-uppercase Project Name
+                                    p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+                                    img.img-fluid.d-block.mx-auto(src="assets/img/portfolio/06-full.jpg" alt="")
+                                    p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                    ul.list-inline
+                                        li Date: January 2020
+                                        li Client: Window
+                                        li Category: Photography
+
+                                    button.btn.btn-primary(data-dismiss="modal" type="button")
+                                        i.fas.fa-times.mr-1
+                                        Close Project
